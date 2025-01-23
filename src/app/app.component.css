@@ -1,0 +1,43 @@
+.sidenav-container {
+  height: 100vh;
+}
+
+.sidenav {
+  overflow: hidden;
+  transition: width 0.3s;
+  width:60px;
+  
+  @media only screen and (max-width: 1024px) {
+    width: 200px;
+  }
+}
+/* 
+.sidenav-container .sidenav[data-expanded="false"] {
+  width: 64px;  */
+/* Only wide enough for icons */
+/* } */
+
+mat-icon {
+  margin-right: 16px;
+}
+
+mat-icon + span {
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+/* .sidenav[data-expanded="false"] mat-icon + span {
+  opacity: 0;
+  visibility: hidden;
+} */
+
+.main-content {
+  padding: 16px;
+  border: 1px solid black;
+}
+
+mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border: 1px solid black;
+}

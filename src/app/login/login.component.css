@@ -1,0 +1,15 @@
+.control-row {
+    /* align-items: flex-end; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .control {
+    flex: 1;
+  }
+  
+  button {
+    padding: 0.6rem 1.75rem;
+  }
+  
